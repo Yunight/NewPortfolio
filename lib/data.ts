@@ -85,8 +85,8 @@ export const projectsData = [
   {
     title: "SmashDown Online",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "An app for playing SmashDown Online from the Game Super Smash Bros Ul. with friends. I was the front-end developer.",
+    tags: ["React", "Materialize", "Bootstrap"],
     imageUrl: smash,
   },
 ] as const;
