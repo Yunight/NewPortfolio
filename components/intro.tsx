@@ -1,16 +1,22 @@
 "use client";
 
-import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useSectionInView } from "@/lib/hooks";
 
 function Intro() {
+  const { ref } = useSectionInView("Accueil", 0.5);
+
   return (
-    <section className="mb-2 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      id="home"
+      className="scroll-mt-[100rem] mb-2 max-w-[50rem] text-center sm:mb-0"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -25,7 +31,7 @@ function Intro() {
               height={192}
               quality={100}
               priority={true}
-              className="h-24 w-24 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="h-40 w-40 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </motion.div>
           <motion.span
@@ -49,8 +55,8 @@ function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, Je suis Benchi CHEN</span> Je suis un{" "}
-        <span className="font-bold">Développeur Front-End Reactjs</span> avec{" "}
+        <span className="font-bold">Hello, Je suis Benchi CHEN</span>, je suis
+        un <span className="font-bold">Développeur Front-End Reactjs</span> avec{" "}
         <span className="font-bold">5 ans</span> d'expérience. Je développe des
         <span className="italic"> sites & applications</span>. J'apprécie
         développer sur <span className="underline"> React</span>.

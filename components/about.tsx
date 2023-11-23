@@ -3,16 +3,21 @@
 import React from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
+import { useSectionInView } from "@/lib/hooks";
 
 function About() {
+  const { ref } = useSectionInView("A Propos", 0.75);
+
   return (
     <motion.section
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40"
+      ref={ref}
+      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.175 }}
+      id="about"
     >
-      <SectionHeading> About me </SectionHeading>
+      <SectionHeading> A Propos </SectionHeading>
       <p className="mb-3">
         Après avoir terminé mes études de Master Web & E-Business, j'ai continué
         dans cette voie du développement web car
