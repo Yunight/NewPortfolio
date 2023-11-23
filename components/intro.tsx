@@ -31,7 +31,7 @@ function Intro() {
               height={192}
               quality={100}
               priority={true}
-              className="h-40 w-40 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
+              className="h-30 w-30 rounded-full border-[0.35rem] border-white object-cover shadow-xl"
             />
           </motion.div>
           <motion.span
