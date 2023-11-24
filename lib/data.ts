@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import site from "@/public/site.png";
 import avocat from "@/public/avocat.png";
 import smash from "@/public/smash.png";
 
@@ -53,7 +53,7 @@ export const experiencesData = [
     title: "Développeur Front - ReactJs",
     location: "Lunorsys - Paris / Madrid / Barcelone",
     description:
-      "J'ai rejoins qui m'a fait voyager en Espagne durant mes missions pour réaliser des projets en Reactjs",
+      "J'ai rejoins cette société qui m'a fait voyager en Espagne durant mes missions pour réaliser des projets en Reactjs",
     icon: React.createElement(FaReact),
     date: "2019 - 2020",
   },
@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Freelance - Développeur Front - ReactJs",
     location: "Paris - Remote",
     description:
-      "J'ai décidé de me lancer en freelance et de continuer à développer sur Reactjs !",
+      "J'ai décidé de me lancer en freelance et de continuer à développer sur Reactjs.",
     icon: React.createElement(FaReact),
     date: "2020 - en cours",
   },
@@ -69,11 +69,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Refonte Site Personnel",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: corpcommentImg,
+      "J'ai décidé de refaire mon site avec Typescript, React, Next.js et Tailwind pour avoir un site plus rapide et plus performant !",
+    tags: ["Typescript", "React", "Next.js", "Tailwind"],
+    imageUrl: site,
   },
   {
     title: "Site Cabinet d'Avocat",
@@ -83,10 +83,10 @@ export const projectsData = [
     imageUrl: avocat,
   },
   {
-    title: "SmashDownOnline",
+    title: "Smashdown Online",
     description:
-      "An app for playing SmashDown Online from the Game Super Smash Bros Ul. with friends. I did all from scratch.",
-    tags: ["React", "Materialize", "Bootstrap"],
+      "Une app pour jouer au mode SmashDown de SmashBros U. sans être à côté de vos amis avec des surprises supplémentaires pour pimenter le jeu !",
+    tags: ["Typescript", "React", "Materialize", "Bootstrap"],
     imageUrl: smash,
   },
 ] as const;
