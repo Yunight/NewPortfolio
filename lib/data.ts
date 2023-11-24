@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import avocat from "@/public/avocat.png";
 import smash from "@/public/smash.png";
 
 export const links = [
@@ -76,14 +76,14 @@ export const projectsData = [
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "Site Cabinet d'Avocat",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Réalisation d'un site vitrine pour un cabinet d'avocat, personnalisé selon la demande du client avec un système de multilangue.",
+    tags: ["PHP", "Wordpress", "Multilangue "],
+    imageUrl: avocat,
   },
   {
-    title: "SmashDown Online",
+    title: "SmashDownOnline",
     description:
       "An app for playing SmashDown Online from the Game Super Smash Bros Ul. with friends. I did all from scratch.",
     tags: ["React", "Materialize", "Bootstrap"],
