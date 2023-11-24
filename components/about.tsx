@@ -17,7 +17,7 @@ function About() {
       transition={{ duration: 0.175 }}
       id="about"
     >
-      <SectionHeading> A Propos </SectionHeading>
+      <SectionHeading> A Propos de moi</SectionHeading>
       <p className="mb-3">
         Après avoir terminé mes études de Master Web & E-Business, j'ai continué
         dans cette voie du développement web car
@@ -30,7 +30,7 @@ function About() {
       <p>
         Je développement principalement sur le front-end avec{" "}
         <span className="font-medium">Reactjs / Typescript / Nodejs</span> .
-        J'ai également de l'expérience avec NextJs,Java.
+        J'ai également de l'expérience avec NextJs et Java.
       </p>
 
       <p>
@@ -43,8 +43,8 @@ function About() {
       <p>
         <span className="italic">Lorsque je ne code pas</span>, j'aime bien
         jouer aux jeux vidéos, regarder des séries / films mais également sortir
-        avec mes amis. Je m'intérésse également à l'actualité dans le domaine du
-        Web car c'est un{" "}
+        avec mes amis. Je fais également de{" "}
+        <span className="underline">la veille technologique</span> car c'est un{" "}
         <span className="font-medium">domaine qui évolue très vite.</span>
       </p>
       <p></p>

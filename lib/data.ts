@@ -85,7 +85,7 @@ export const projectsData = [
   {
     title: "SmashDown Online",
     description:
-      "An app for playing SmashDown Online from the Game Super Smash Bros Ul. with friends. I was the front-end developer.",
+      "An app for playing SmashDown Online from the Game Super Smash Bros Ul. with friends. I did all from scratch.",
     tags: ["React", "Materialize", "Bootstrap"],
     imageUrl: smash,
   },
