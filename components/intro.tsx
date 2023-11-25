@@ -59,8 +59,9 @@ function Intro() {
       >
         <span className="font-bold">Hello, Je suis Benchi CHEN</span>, je suis
         un <span className="font-bold">Développeur Front-End Reactjs</span> avec{" "}
-        <span className="font-bold">5 ans</span> d'expérience. Je développe des
-        <span className="italic"> sites & applications</span>. J'apprécie
+        <span className="font-bold">5 ans</span> d&apos;expérience. Je développe
+        des
+        <span className="italic"> sites & applications</span>. J&apos;apprécie
         développer sur <span className="underline"> React</span>.
       </motion.h1>
 

@@ -19,32 +19,33 @@ function About() {
     >
       <SectionHeading> A Propos de moi</SectionHeading>
       <p className="mb-3">
-        Après avoir terminé mes études de Master Web & E-Business, j'ai continué
-        dans cette voie du développement web car
-        <span className="italic"> j'adore les challenges </span> qui sont
-        proposés dans ce domaine, trouver la solution d'un problème est un
-        <span className="underline"> sentiment d'accomplissement </span>pour
-        moi.
+        Après avoir terminé mes études de Master Web & E-Business, j&apos;ai
+        continué dans cette voie du développement web car
+        <span className="italic"> j&apos;adore les challenges </span> qui sont
+        proposés dans ce domaine, trouver la solution d&apos;un problème est un
+        <span className="underline"> sentiment d&apos;accomplissement </span>
+        pour moi.
       </p>
 
       <p>
         Je développement principalement sur le front-end avec{" "}
         <span className="font-medium">Reactjs / Typescript / Nodejs</span> .
-        J'ai également de l'expérience avec NextJs et Java.
+        J&apos;ai également de l&apos;expérience avec NextJs et Java.
       </p>
 
       <p>
         <span className="font-medium">
           Je suis actuellement en recherche de mission sur Reactjs / Typescript
         </span>{" "}
-        alors n'hésitez pas à me contacter pour en parler !
+        alors n&apos;hésitez pas à me contacter pour en parler !
       </p>
 
       <p>
-        <span className="italic">Lorsque je ne code pas</span>, j'aime bien
+        <span className="italic">Lorsque je ne code pas</span>, j&apos;aime bien
         jouer aux jeux vidéos, regarder des séries / films mais également sortir
         avec mes amis. Je fais également de{" "}
-        <span className="underline">la veille technologique</span> car c'est un{" "}
+        <span className="underline">la veille technologique</span> car
+        c&apos;est un{" "}
         <span className="font-medium">domaine qui évolue très vite.</span>
       </p>
       <p></p>
