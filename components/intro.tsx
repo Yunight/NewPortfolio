@@ -27,7 +27,7 @@ function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/moi.jpg"
+              src="/moi.png"
               alt="Benchi Chen"
               width={192}
               height={192}
