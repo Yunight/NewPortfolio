@@ -2,11 +2,16 @@ This is a Portfolio project bootstrapped with [`create-next-app`](https://github
 
 ## Getting Started
 
-git clone this url
-cd your folder
-npm install
-run the development server:
+
+run :
 ```bash
+
+git clone this url
+
+cd your folder
+
+npm install
+
 npm run dev
 # or
 yarn dev
