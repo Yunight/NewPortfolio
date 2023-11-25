@@ -2,8 +2,10 @@ This is a Portfolio project bootstrapped with [`create-next-app`](https://github
 
 ## Getting Started
 
-First, run the development server:
-
+git clone this url
+cd your folder
+npm install
+run the development server:
 ```bash
 npm run dev
 # or
