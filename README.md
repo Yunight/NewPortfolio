@@ -6,7 +6,7 @@ This is a Portfolio project bootstrapped with [`create-next-app`](https://github
 run :
 ```bash
 
-git clone [this url](https://github.com/Yunight/newportfolio.git)
+git clone https://github.com/Yunight/newportfolio.git
 
 cd your folder
 
