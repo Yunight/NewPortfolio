@@ -8,6 +8,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
+import ProfilPic from "@/public/moi.png";
 
 function Intro() {
   const { ref } = useSectionInView("Accueil", 0.5);
@@ -27,7 +28,7 @@ function Intro() {
             transition={{ type: "tween", duration: 0.2 }}
           >
             <Image
-              src="/moi.png"
+              src={ProfilPic}
               alt="Benchi Chen"
               width={192}
               height={192}
