@@ -18,7 +18,15 @@ yarn dev
 # or
 pnpm dev
 ```
+```bash
+FOLDERS CONTENTS:
+ - Components : all layout components
+ - Context : Context providing Theme and Active section for the whole app
+ - email : Email template
+ - lib : Datas, hooks, types and utils functions
+ - public : pictures and pdf
 
+```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 In order to use the contact form you have to create an account on [`ReSend`](https://resend.com/overview]).
