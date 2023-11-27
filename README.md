@@ -25,6 +25,7 @@ FOLDERS CONTENTS:
  - email : Email template
  - lib : Datas, hooks, types and utils functions
  - public : pictures and pdf
+ - actions : server side action to handle email 
 
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
