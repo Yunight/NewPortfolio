@@ -55,7 +55,7 @@ export const experiencesData = [
     description:
       "J'ai rejoins cette société qui m'a fait voyager en Espagne durant mes missions pour réaliser des projets en Reactjs",
     icon: React.createElement(FaReact),
-    date: "2019 - 2020",
+    date: "2018 - 2020",
   },
   {
     title: "Freelance - Développeur Front - ReactJs",
