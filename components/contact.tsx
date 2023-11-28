@@ -16,14 +16,14 @@ function Contact() {
     <motion.section
       id="contact"
       ref={ref}
-      className="mb-20 sm:mb-28 w-[min-(100%,38rem)] text-center"
+      className="mb-20 w-[min-(100%,38rem)] text-center sm:mb-28"
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 1 }}
       viewport={{ once: true }}
     >
       <SectionHeading>Contactez-moi</SectionHeading>
-      <p className="text-gray-700 -mt-5 dark:text-white/80 ">
+      <p className="-mt-5 text-gray-700 dark:text-white/80 ">
         Contactez-moi directement par mail{" "}
         <a className="underline" href="mailto:benchi.chen.bc@gmail.com">
           {" "}
@@ -44,7 +44,7 @@ function Contact() {
         }}
       >
         <input
-          className="h-14 px-4 rounded-lg borderBlack dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="borderBlack h-14 rounded-lg px-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           name="senderEmail"
           type="email"
           placeholder="Votre Email"
@@ -52,7 +52,7 @@ function Contact() {
           maxLength={500}
         />
         <textarea
-          className="h-52 my-3 rounded-lg borderBlack p-4 dark:bg-white dark:bg-opacity-80 dark:focus:bg-opacity-100 transition-all dark:outline-none"
+          className="borderBlack my-3 h-52 rounded-lg p-4 transition-all dark:bg-white dark:bg-opacity-80 dark:outline-none dark:focus:bg-opacity-100"
           name="message"
           placeholder="Votre Message"
           required

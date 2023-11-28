@@ -8,7 +8,7 @@ function SubmitButton() {
   return (
     <button
       type="submit"
-      className="group flex items-center  gap-2 justify-center h-[3rem] w-[8rem] bg-gray-900 text-white rounded-full outline-none transition-all focus:scale-110 hover:scale-110 active:scale-105 hover:bg-gray-950 disabled:scale-100 disabled:bg-opacity-[65]  dark:bg-white dark:bg-opacity-10"
+      className="group flex h-[3rem]  w-[8rem] items-center justify-center gap-2 rounded-full bg-gray-900 text-white outline-none transition-all hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105 disabled:scale-100 disabled:bg-opacity-[65]  dark:bg-white dark:bg-opacity-10"
       disabled={pending}
     >
       {pending ? (
@@ -16,7 +16,7 @@ function SubmitButton() {
       ) : (
         <>
           Envoyer{" "}
-          <FaPaperPlane className="group-hover:translate-x-1 group-hover:-translate-y-1 text-xs opacity-70 transition-all " />{" "}
+          <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:-translate-y-1 group-hover:translate-x-1 " />{" "}
         </>
       )}
     </button>

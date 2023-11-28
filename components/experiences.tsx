@@ -16,7 +16,7 @@ function Experiences() {
   const { theme } = useTheme();
 
   return (
-    <section ref={ref} id="experience" className="scroll-mt-28 mb-28 ">
+    <section ref={ref} id="experience" className="mb-28 scroll-mt-28 ">
       <SectionHeading>Mon expérience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((experience, index) => (
@@ -48,7 +48,7 @@ function Experiences() {
               }}
             >
               <h3 className="font-semibold capitalize">{experience.title}</h3>
-              <p className="font-normal !mt-0">{experience.location}</p>
+              <p className="!mt-0 font-normal">{experience.location}</p>
               <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {experience.description}
               </p>

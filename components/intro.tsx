@@ -18,7 +18,7 @@ function Intro() {
     <section
       ref={ref}
       id="home"
-      className="scroll-mt-[100rem] mb-2 max-w-[50rem] text-center sm:mb-0"
+      className="mb-2 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
     >
       <div className="flex items-center justify-center">
         <div className="relative">
@@ -38,7 +38,7 @@ function Intro() {
             />
           </motion.div>
           <motion.span
-            className="text-4xl absolute bottom-0 right-0 "
+            className="absolute bottom-0 right-0 text-4xl "
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -67,14 +67,14 @@ function Intro() {
       </motion.h1>
 
       <motion.div
-        className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
+        className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
       >
         <Link
           className=" group
-        bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition dark:bg-white/30"
+        flex items-center gap-2 rounded-full bg-gray-900 px-7 py-3 text-white outline-none transition hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105 dark:bg-white/30"
           href="#contact"
           onClick={() => {
             setActiveSection("Contact");
@@ -82,20 +82,20 @@ function Intro() {
           }}
         >
           Contactez moi{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+          <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          className="borderBlack group flex cursor-pointer items-center gap-2 rounded-full bg-white px-7 py-3 outline-none transition hover:scale-110 focus:scale-110 active:scale-105 dark:bg-white/10"
           href="/CV_CHEN_Benchi.pdf"
           download
         >
           Télécharger CV{" "}
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition " />
+          <HiDownload className="opacity-60 transition group-hover:translate-y-1 " />
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full first-line:focus:scale-[1.15] hover:scale-[1.15]  active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="borderBlack flex cursor-pointer items-center gap-2 rounded-full bg-white p-4 text-gray-700 transition  hover:scale-[1.15] hover:text-gray-950 first-line:focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/benchi-chen-b495626b/"
           target="_blank"
         >
@@ -103,7 +103,7 @@ function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 hover:text-gray-950  flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+          className="borderBlack flex cursor-pointer items-center  gap-2 rounded-full bg-white p-4 text-[1.35rem] text-gray-700 transition hover:scale-[1.15] hover:text-gray-950 focus:scale-[1.15] active:scale-105 dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Yunight"
           target="_blank"
         >
