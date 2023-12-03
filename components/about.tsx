@@ -28,7 +28,7 @@ function About() {
       </p>
 
       <p>
-        Je développement principalement sur le front-end avec{" "}
+        Je développe principalement sur le front-end avec{" "}
         <span className="font-medium">Reactjs / Typescript / Nodejs</span> .
         J&apos;ai également de l&apos;expérience avec NextJs et Java.
       </p>
