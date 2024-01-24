@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import site from "@/public/site.png";
 import avocat from "@/public/avocat.png";
 import smash from "@/public/smash.png";
+import moviesearcher from "@/public/movieSearcher.png";
 
 export const links = [
   {
@@ -88,6 +89,13 @@ export const projectsData = [
       "Une app pour jouer au mode SmashDown de SmashBros U. sans être à côté de vos amis avec des surprises supplémentaires pour pimenter le jeu !",
     tags: ["Typescript", "React", "Materialize", "Bootstrap"],
     imageUrl: smash,
+  },
+  {
+    title: "Movies Searcher",
+    description:
+      "Movies Searcher réalisé avec React et Typescript. En utilisant l'API de www.omdbapi.com pour récupérer les films et les afficher, réalisé dans le cadre d'un test technique.",
+    tags: ["Typescript", "React", "Tailwind"],
+    imageUrl: moviesearcher,
   },
 ] as const;
 
