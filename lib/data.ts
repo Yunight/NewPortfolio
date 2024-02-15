@@ -118,6 +118,8 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Redux",
+  "Recharts",
+  "DaisyUI",
   "Jest",
   "Cypress",
 ] as const;
