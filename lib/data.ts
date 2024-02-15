@@ -121,5 +121,6 @@ export const skillsData = [
   "Recharts",
   "DaisyUI",
   "Jest",
+  "Docker",
   "Cypress",
 ] as const;
