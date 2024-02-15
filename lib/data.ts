@@ -6,6 +6,7 @@ import site from "@/public/site.png";
 import avocat from "@/public/avocat.png";
 import smash from "@/public/smash.png";
 import moviesearcher from "@/public/movieSearcher.png";
+import reactfinance from "@/public/react_finance.png";
 
 export const links = [
   {
@@ -96,6 +97,13 @@ export const projectsData = [
       "Movies Searcher réalisé avec React et Typescript. En utilisant l'API de www.omdbapi.com pour récupérer les films et les afficher, réalisé dans le cadre d'un test technique.",
     tags: ["Typescript", "React", "Tailwind"],
     imageUrl: moviesearcher,
+  },
+  {
+    title: "React Finance",
+    description:
+      "Une interface pour avoir les valeurs boursières des entreprises et les afficher etc... En utilisant l'API de polygon.io pour récupérer les données boursières.",
+    tags: ["Typescript", "React", "DaisyUI", "Redux", "Recharts", "Jest"],
+    imageUrl: reactfinance,
   },
 ] as const;
 
